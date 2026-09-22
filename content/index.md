@@ -12,3 +12,5 @@ N. Вспомогательные страницы
 - [[GIT]]
 - [[Obsidian]]
 
+[[asdf]]
+[[qwer.canvas]]
