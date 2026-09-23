@@ -5,26 +5,5 @@ title: Главная страница
 
 # Оглавление
 
-1.
-2.
-N. Вспомогательные страницы
-- [[Quartz]]
-- [[GIT]]
-- [[Obsidian]]
-[[что-то новое]]
-[[asdf]]
-[[qwer.canvas]]
-
-
-> [!Warning] Заметка!
-> Заметка!
-
-> [!Note]  Заметка
-> Заметка
-
-Ggffhjhcfg
-Something
-Fffff_
-Ffghjkjggg
-
-asdfjklhasdfhjklasdfjkl
+1. [[GIT]]
+2. 
