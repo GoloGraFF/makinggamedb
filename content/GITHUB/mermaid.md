@@ -7,6 +7,8 @@ sequenceDiagram
     John-->>-Alice: I feel great!
 ```
 
+```mermaid
+sequenceDiagram
+Локальная директория->staging: git add
+```
 
-
-qwerqwerqwer
