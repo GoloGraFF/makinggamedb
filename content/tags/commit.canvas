@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"0e7caa90f1c9d386","type":"text","text":"Локальная директория","x":-160,"y":-320,"width":250,"height":120,"color":"4"},
+		{"id":"44e46e3c9420570d","type":"text","text":"staging","x":-160,"y":-100,"width":250,"height":100,"color":"4"},
+		{"id":"e5db8e5687c68587","type":"text","text":"commit","x":-160,"y":80,"width":250,"height":120,"color":"4"}
+	],
+	"edges":[
+		{"id":"6d293e9a099b93f3","fromNode":"0e7caa90f1c9d386","fromSide":"bottom","toNode":"44e46e3c9420570d","toSide":"top","label":"git add"},
+		{"id":"8d5e6c7c61aafdb2","fromNode":"44e46e3c9420570d","fromSide":"bottom","toNode":"e5db8e5687c68587","toSide":"top","label":"git commit"}
+	]
+}
