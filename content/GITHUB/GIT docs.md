@@ -80,8 +80,8 @@ git add text.txt
 git commit -m "Add file text.txt"
 ```
 
-
-![[Drawing 2026-09-30 00.23.28.excalidraw]]
+![[Pasted image 20260930211748.png]]
+[[Drawing 2026-09-30 00.23.28.excalidraw]]
 
 > [!WARNING]
 > Команда `git commit` сохраняет состояние проекта, но только в локальном репозитории. Для того чтобы отправить изменения в репозиторий в сети, требуется выполнить команду `git push`
