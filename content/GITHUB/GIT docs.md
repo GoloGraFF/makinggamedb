@@ -93,10 +93,11 @@ git commit -m "Add file text.txt"
 ```bash
 git log
 
-	name commit
-commit <id>
-Author: <Author name>
-Date: <Date>
+
+###<name commit>
+#commit <id>
+#Author: <Author name>
+#Date: <Date>
 ```
 
 ```bash
