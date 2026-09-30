@@ -80,11 +80,105 @@ git add text.txt
 git commit -m "Add file text.txt"
 ```
 
-![[../tags/commit.canvas|струкрута комита]]
+
+![[Drawing 2026-09-30 00.23.28.excalidraw]]
+
+> [!WARNING]
+> Команда `git commit` сохраняет состояние проекта, но только в локальном репозитории. Для того чтобы отправить изменения в репозиторий в сети, требуется выполнить команду `git push`
+
+## git log
+
+Команда показывает историю.
+
+```bash
+git log
+
+	name commit
+commit <id>
+Author: <Author name>
+Date: <Date>
+```
+
+```bash
+#показывает одной строкой
+git log --oneline
+<id> <name commit>
+```
+
+```bash
+#показывает ветки
+git log --graph --oneline --all
+```
+
+## git show
+
+Команда показывает конкретный commit
+
+```bash
+git show 91asd123 #показывает коммит 91asd123 
+git show # показывает последний commit
+```
+
+## git diff
+
+Команда показывает, разницу между **рабочей директорией** и **staging**. Что изменилось в **рабочей директории**.
+
+## git diff --staged 
+
+Команда показывает, что добавлено в **staging** и будет отправлено в следующей **commit**
+
+```bash
+#обычная последовательность
+
+git status
+git diff
+git add -A
+git diff --staged
+git commit -m "..."
+```
+
+## git restore
+
+```bash
+git restore <file>
+```
+
+Команда восстанавливает изменения, которые еще не были **закомичены**
+Другими словами команда откатывает изменения на момент предыдущего **коммита**
+
+## git restore --staged
+
+```bash
+git restore --staged <file>
+```
+
+Команда которая убирает изменения из **staging**, но не изменяет сам файл.
+
+```bash
+git add <file> #добавляет в staging
+git restore --staged <file> #убирает из staging 
+```
+
+## git rm
+
+Команда удаляет файл и сообщает git об этом.
+
+```bash
+git rm file.txt
+```
+
+после commit изменение попадет в историю.
+эта команда может использоваться как альтернатива
+
+```bash
+#удалить файл в ручную
+git add -A
+```
 
 
+## git mv 
 
-
+!!!НАЙТИ ПОТОМ!!!
 
 
 
